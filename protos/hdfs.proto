@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package hdfs;
 
-option go_package = "..;main";
+option go_package = "../api;api";
 
 message FileChunk {
     bytes data = 1; // chunk data

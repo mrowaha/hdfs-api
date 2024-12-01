@@ -4,7 +4,7 @@
 // - protoc             v3.21.12
 // source: hdfs.proto
 
-package main
+package api
 
 import (
 	context "context"
